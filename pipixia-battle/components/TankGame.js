@@ -132,7 +132,7 @@ export default function TankGame() {
 
   return (
     <div className="container">
-      <h1 className="title">坦 克 大 战</h1>
+      <h1 className="title">皮 皮 虾 大 战</h1>
 
       <div className="hud">
         <span>关卡 <b>{hud.level}</b></span>
@@ -149,8 +149,8 @@ export default function TankGame() {
 
         {hud.state === "ready" && (
           <div className="overlay">
-            <h2>坦克大战</h2>
-            <p>消灭所有敌军坦克，保护基地！</p>
+            <h2>皮皮虾大战</h2>
+            <p>消灭所有敌军皮皮虾，保护基地！</p>
             <button onClick={handleStart}>开始游戏</button>
             <p className="small">方向键 / WASD 移动 · 空格 开火 · P 暂停</p>
           </div>
